@@ -1,7 +1,7 @@
 <div align="center">
 
 # Zain Abbas
-### AI Software Engineer · Systems Architect · Published Researcher
+### AI Software Engineer · Systems Architect · Researcher
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zainabbas313)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zainabbas313)
