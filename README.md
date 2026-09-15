@@ -1,12 +1,12 @@
 <div align="center">
 
-# Zain Abbas
-### AI Software Engineer · Systems Architect · Researcher
+# Syed Zain Abbas
+### Senior Applied AI Software Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zainabbas313)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zain-abbas-444207201/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zainabbas313)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/zainabbas110)
-[![IEEE Paper](https://img.shields.io/badge/IEEE_Xplore-Published-00629B?style=flat-square&logo=ieee&logoColor=white)](https://lnkd.in/dMJYy3nt)
+[![IEEE Paper](https://img.shields.io/badge/IEEE_Xplore-Published-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11204115)
 
 </div>
 
@@ -14,110 +14,97 @@
 
 ## About
 
-AI Software Engineer currently at **Codet AI** (Nov 2025–Present), building production-grade ML systems and LLM-powered applications. My work spans agentic AI infrastructure, distributed backend systems, and applied deep learning — from multi-agent orchestration pipelines and multi-tenant SaaS architectures to in-database ML extension design.
+Senior Applied AI Engineer currently at **Codet AI** (Jul 2026–Present, Full-time, Sindh, Pakistan · On-site), designing and building production-grade **Agentic AI and LLM systems** for autonomous reasoning, planning, retrieval, orchestration, and workflow execution. Work spans multi-agent orchestration with LangGraph and AutoGen, advanced RAG pipelines, custom memory/context-retrieval infrastructure, serverless AI execution (Kubernetes, V8 isolates), and secure multi-tenant AI SaaS architectures.
 
-Previously **Associate AI Engineer at Netpace Inc.** (California, Jul–Nov 2025) and **AI Engineer at DreamSleep** (Jan–May 2025, Chicago), where I designed FastAPI-based AI services on GCP with LangGraph agentic workflows, knowledge graph reasoning, ontology-driven inference (OWL), and multi-tenant isolation.
+Previously **AI Software Engineer at Codet AI** (Nov 2025–Jul 2026, Hybrid), **Associate AI Engineer at Netpace Inc.** (Jul–Nov 2025, California, Full-time · On-site), **AI Engineer at DreamSleep** (Aug 2024–Jan 2025, Remote Internship), and **Full Stack Software Engineer at Talverse** (Oct 2024–Jan 2025, Karachi, Internship · On-site).
 
-**BSc Computer Science — FAST-NUCES Karachi** (2021–2025). Teaching Assistant for Graph Theory and Data Structures across 1.5 years. **IEEE-published researcher**, presented at C-CODE'25.
+**BSc Computer Science — FAST-NUCES Karachi** (Sept 2021–Jun 2025). **IEEE-published researcher**, presented at C-CODE'25.
 
 ---
 
 ## Current Role
 
-**AI Software Engineer — Codet AI** *(Nov 2025 – Present · Hybrid)*
+**Senior Applied AI Engineer — Codet AI** *(Jul 2026 – Present · Full-time · Sindh, Pakistan · On-site)*
 
-- Large language model integration and prompt engineering for production workflows
-- ML pipeline design for scalable AI-powered products
-- Agentic system design with LangGraph and Autogen
-- Backend systems with FastAPI, Spring Boot, and .NET
+- Architecting multi-agent systems using LangGraph — tool calling, structured outputs, state management, and context-aware execution
+- Advanced RAG pipelines combining vector databases, embeddings, hybrid retrieval, and Causal Knowledge Graphs
+- Custom memory and context-retrieval infrastructure for long-running agent sessions
+- Real-time conversational and voice AI integrating LLMs with STT/TTS
+- Serverless AI execution infrastructure: Kubernetes, V8 isolates, intelligent workload routing, autoscaling
+- Adaptive runtime-learning systems using Bayesian Optimization for inference tuning
+- Scalable backend/microservice architectures with Rust, Python, FastAPI, GraphQL, PostgreSQL, and YugabyteDB
+- Secure multi-tenant AI SaaS architectures: tenant isolation, RBAC, ABAC, JWT-scoped authorization
+- Distributed, event-driven workflows using Saga patterns, and LLM guardrails for production reliability
 
 ---
 
 ## Published Research
 
 ### Multi-Modal Image Fusion for Enhanced Multi-Class Diagnosis of Cardiovascular Diseases Using Deep Learning
-**IEEE Xplore · C-CODE'25 · Bahria University, Islamabad · Oct 29, 2025**  
-*Co-authors: Mohammad Haseeb, Hasan Mehdavi · Supervisor: Ms. Sania Urooj*  
-**→ [[Full Paper on IEEE Xplore]](https://lnkd.in/dMJYy3nt)**
+**IEEE Xplore · C-CODE'25 · Bahria University, Islamabad · Oct 29, 2025**
+*Co-authors: Mohammad Haseeb, Hasan Mehdavi · Supervisor: Ms. Sania Urooj*
+**→ [Full Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11204115)**
 
 Proposed a deep learning diagnostic framework that addresses the core limitation of single-modality ECG analysis. The pipeline transforms 1D ECG signals into four complementary 2D visual representations — **Gramian Angular Fields (GAF)**, **Markov Transition Fields (MTF)**, **Recurrence Plots (RP)**, and **Time-Frequency Representations (TFR)** — which are fused and classified via a **ResNet50** backbone.
 
-The system performs multi-class diagnosis of **Myocardial Infarction (MI)**, **Coronary Artery Disease (CAD)**, **Congestive Heart Failure (CHF)**, and **Arrhythmia**, achieving **99.75% accuracy** — among the highest reported for multi-class CVD detection in the literature.
-
-Integrated **Explainable AI (XAI)** via Grad-CAM spatial saliency and SHAP global attribution to provide clinical interpretability, targeting physician trust and diagnostic transparency in real-world deployment.
+The system performs multi-class diagnosis of **Myocardial Infarction (MI)**, **Coronary Artery Disease (CAD)**, **Congestive Heart Failure (CHF)**, and **Arrhythmia**, achieving **99.75% accuracy** — among the highest reported for multi-class CVD detection in the literature. Integrated **Explainable AI (XAI)** via Grad-CAM spatial saliency and SHAP global attribution for clinical interpretability.
 
 ---
 
 ## Technical Focus
 
-**Agentic AI & LLM Systems**
-- Multi-agent orchestration: LangGraph stateful graphs, Autogen role-based agents, tool-use and memory persistence
-- RAG pipelines: document ingestion, chunking, vector indexing (FAISS, HNSW, pgvector), hybrid retrieval and re-ranking
-- Knowledge graph construction with OWL ontologies for semantic reasoning and context-aware AI
-- LLM integration across OpenAI, Anthropic (Claude), Groq, Gemini — structured outputs, streaming, function calling
-- LLM policy design: access control layers, prompt-level guardrails, and policy enforcement within agentic pipelines
+**AI / LLM / Agents**
+- LangGraph, LangChain, AutoGen — multi-agent orchestration, stateful execution, tool integration, memory
+- OpenAI, Claude, Groq, Gemini — structured outputs, function calling, streaming
+- Prompt Engineering and GEPA (evolving/reflective prompt optimization)
+- Bayesian Optimization for inference configuration and runtime tuning
 
-**Security, Access Control & Policy**
-- RBAC, ABAC, PBAC, and IAM policy design for multi-tenant and enterprise systems
-- Fine-grained permission modeling: role hierarchies, attribute-based conditions, resource-scoped policies
-- Policy engines for runtime authorization — separating business rules from application logic
-- Row-level security, schema isolation, and JWT-scoped access for SaaS architectures
+**ML / Deep Learning**
+- PyTorch, TensorFlow, Hugging Face
+- ANN, CNN, ResNet architectures
 
-**Data Infrastructure & Storage Architecture**
-- In-database ML via PostgreSQL extension design (CSQLNN v3): GPU acceleration, fused operator kernels, modern optimizers — zero-copy inference without data movement
-- YugabyteDB for distributed SQL: horizontal scalability, fault tolerance, PostgreSQL-compatible workloads
-- EAV (Entity–Attribute–Value) modeling for high-cardinality, sparse-domain data
-- Canonical data modeling and normalization strategies for analytical workloads
-- Database sharding, horizontal partitioning, and large-scale storage design
-- Probabilistic data structures: Bloom Filters for membership testing, HyperLogLog for approximate cardinality at scale
+**RAG / Conversational AI**
+- GraphRAG, Qdrant, FAISS, Pinecone, pgvector, Neo4j — hybrid retrieval and knowledge-graph reasoning
+- Retell AI, ElevenLabs, STT/TTS — real-time voice AI
 
-**Distributed & Backend Systems**
-- Multi-tenant SaaS architecture: schema-per-tenant isolation, row-level security, RBAC, connection pooling
-- FastAPI async services: JWT auth, WebSocket messaging, REST API design
-- GCP deployment: Cloud Buckets, Cloud Run, Pub/Sub event pipelines, scalable compute, CI/CD
-- Java Spring Boot and C# .NET for enterprise backend systems
-- TypeScript Isolates (V8) for sandboxed, multi-tenant code execution with strict resource and scope boundaries
+**Backend / Cloud**
+- FastAPI, GraphQL, PostgreSQL, YugabyteDB, Redis
+- Docker, Kubernetes, GCP, Cloud Run, Serverless
 
-**Voice AI**
-- Retell AI for production-grade conversational voice agents: call flows, interruption handling, latency optimization
-- ElevenLabs TTS for real-time streaming voice synthesis integrated into LLM pipelines
+**Auth / Policy**
+- RBAC / ABAC, JWT-scoped authorization, LLM guardrails and policy enforcement
 
-**Code Intelligence & Graph Systems**
-- Repository graph construction using hypergraph strategies for multi-way code relationship modeling
-- LVSA on code graphs: random walks, graph embeddings, hierarchical indexing and paging
-- Retrieval optimization: Bloom Filter gating, HyperLogLog-based cardinality estimation
-
-**Compilation & Runtime**
-- Python → WebAssembly (WASM) compiler: AST transformation, type lowering, memory layout, binary encoding
-- Runtime execution semantics for compiled bytecode in constrained environments
-
-**AI-Native Development Platforms**
-- Building and shipping on Replit, Lovable, and Atoms.dev — AI-accelerated full-stack development and rapid prototyping
+**Tools**
+- LangSmith, n8n, Ollama, Postman, Cursor, Jupyter / Google Colab, CI/CD
 
 ---
 
 ## Key Projects
 
-### [`Researchify`](https://www.researchify.app) — AI Research Platform
-A free-to-use AI platform that thinks like a researcher, not just writes like one. Researchify goes beyond LLM content generation — it finds references, builds research context, resolves ambiguities by asking clarifying questions, and synthesizes literature end-to-end. It acts as a co-author: the idea, hypothesis, and intellectual leadership remain yours; Researchify handles the research vocabulary, citation structure, and paper construction. Built for the era where researchers only need to think — not spend time mastering academic writing conventions or hiring ghostwriters.
 
-**[→ www.researchify.app](https://www.researchify.app)**
+### [`Winara`](https://github.com/zainabbas313/Winara) — Personal Project
+Upwork-style platform system for freelance bids and account management, covering proposal workflows and account lifecycle management.
 
-### [`CSQLNN`](https://github.com/zainabbas313) — In-Database Neural Network Engine
-Ground-up redesign of a PostgreSQL extension for native neural network inference inside the database. v3 eliminates data movement overhead via GPU acceleration, fused kernels, and modern optimizer support — targeting zero-copy inference for latency-critical analytical workloads.
+### [`Agentic-Scraping-Workflow`](https://github.com/zainabbas313/Agentic-Scraping-Workflow) — Personal Project
+Multi-engine orchestration for large-scale web data acquisition. Adaptive routing across Playwright, Selenium, Scrapy, and Pyppeteer with session-aware cookie lifecycle management and structured output extraction.
 
-### [`Agentic-Scraping-Workflow`](https://github.com/zainabbas313/Agentic-Scraping-Workflow)
-Multi-engine orchestration for large-scale web data acquisition. Adaptive routing across Playwright, Selenium, Scrapy, and Pyppeteer with session-aware cookie lifecycle management and structured output extraction. Fault-tolerant design for production pipelines.
+### [`KnownGraphs`](https://github.com/zainabbas313/KnownGraphs) — Personal Research · In Progress
+Distributed property-graph and knowledge-graph platform built natively on YugabyteDB YSQL, exploring graph-native querying and reasoning at distributed-database scale.
 
-### `DreamSleep AI Platform` *(Proprietary)*
+### [`MythrilVault`](https://www.mythrilvault.com/)
+Online marketplace for gamers to safely buy and sell virtual gaming accounts, with secure transaction handling and account listing workflows.
+
+### `CSQLNN` — Personal Research · In Progress
+Ground-up redesign of a PostgreSQL extension for native neural network inference inside the database, targeting zero-copy inference via GPU acceleration and fused kernels for latency-critical analytical workloads.
+
+### [`C-CODE-25-IEEE-Research`](https://github.com/zainabbas313/C-CODE-25-IEEE-Research) — Published Research
+Multi-modal image fusion deep learning framework for multi-class cardiovascular disease diagnosis — the codebase behind the IEEE C-CODE'25 publication above.
+
+### `DreamSleep AI Platform` — Professional
 Full AI backend stack on GCP: FastAPI services, LangGraph agentic workflows with persistent memory, multi-tenant isolation, RBAC, OWL-based knowledge graph reasoning, and RAG-powered retrieval.
 
 ### [`VECTOR-SPACE-MODEL-FOR-INFORMATION-RETRIEVAL`](https://github.com/zainabbas313/VECTOR-SPACE-MODEL-FOR-INFORMATION-RETRIEVAL)
 TF-IDF and cosine similarity IR system with inverted index construction, query preprocessing, and ranked retrieval — foundational implementation underlying modern embedding search.
-
-### `VOICE-GENERATION-PROJECT`
-Real-time AI voice conversation system integrating Groq LLM API with ElevenLabs TTS. Low-latency streaming synthesis, turn-taking logic, and session state management.
-
 ---
 
 ## Research & Experimentation
@@ -136,13 +123,11 @@ Real-time AI voice conversation system integrating Groq LLM API with ElevenLabs 
 ## Experience
 
 ```
-Nov 2025 – Present    AI Software Engineer         @ Codet AI (Hybrid)
-Jul 2025 – Nov 2025   Associate AI Engineer        @ Netpace Inc. (Hybrid)
-Jan 2025 – May 2025   AI Engineer I                @ DreamSleep (Chicago, Remote)
-Aug 2024 – Jan 2025   AI Engineer (Intern)         @ DreamSleep (Remote)
-Oct 2024 – Jan 2025   Full Stack Engineer (Intern) @ Talverse (On-site)
-Aug 2024 – Jan 2025   Teaching Assistant           @ FAST-NUCES (Graph Theory)
-Sep 2023 – Jul 2024   Teaching Assistant           @ FAST-NUCES (Data Structures)
+Jul 2026 – Present    Senior Applied AI Engineer   @ Codet AI (Full-time, Sindh, Pakistan · On-site)
+Nov 2025 – Jul 2026   AI Software Engineer         @ Codet AI (Hybrid)
+Jul 2025 – Nov 2025   Associate AI Engineer        @ Netpace Inc. (Full-time, California · On-site)
+Aug 2024 – Jan 2025   AI Engineer                  @ DreamSleep (Internship, Remote)
+Oct 2024 – Jan 2025   Full Stack Software Engineer @ Talverse (Internship, Karachi · On-site)
 ```
 
 ---
@@ -150,18 +135,28 @@ Sep 2023 – Jul 2024   Teaching Assistant           @ FAST-NUCES (Data Structur
 ## Stack
 
 ```
-LLM / Agents    │ LangGraph · Autogen · LangChain · OpenAI · Anthropic (Claude) · Groq · Gemini
-ML / DL         │ PyTorch · TensorFlow · ResNet · GANs · Diffusion Models
-Voice AI        │ Retell AI · ElevenLabs
-Backend         │ FastAPI · Spring Boot · .NET · REST · WebSocket · JWT · TypeScript Isolates (V8)
-Auth / Policy   │ RBAC · ABAC · PBAC · IAM · Policy Engines · LLM Policy · Row-Level Security
-Data / Storage  │ PostgreSQL · YugabyteDB · pgvector · Redis · SQL/NoSQL · GCP Cloud Storage
-Messaging       │ GCP Pub/Sub · Event-driven architecture · Async task queues
-Payments        │ Stripe (Subscriptions · Webhooks · Billing)
-Cloud / DevOps  │ GCP · Docker · CI/CD · Cloud Run
-AI Dev Tools    │ Replit · Lovable · Atoms.dev
-Languages       │ Python · Java · C# · C · TypeScript
+Languages       │ Python · TypeScript/JavaScript · SQL · Rust · Java · C# · C/C++
+AI / LLM        │ LangGraph · LangChain · AutoGen · OpenAI · Claude · Groq · Gemini · Prompt Engineering · GEPA
+ML / DL         │ PyTorch · TensorFlow · Hugging Face · ANN · CNN · ResNet
+RAG / Voice AI  │ GraphRAG · Qdrant · FAISS · Pinecone · pgvector · Neo4j · Retell AI · ElevenLabs · STT/TTS
+Backend / Cloud │ FastAPI · GraphQL · PostgreSQL · YugabyteDB · Redis · Docker · Kubernetes · GCP · Cloud Run
+Auth / Policy   │ RBAC · ABAC · JWT-Scoped Authorization · LLM Guardrails
+Tools           │ LangSmith · n8n · Ollama · GitHub/GitLab/Bitbucket · CI/CD · Postman · Cursor · Jupyter/Colab
 ```
+
+---
+
+## Certifications
+
+- AI for Everyone — DeepLearning.AI
+- Neural Networks & Deep Learning — DeepLearning.AI
+- Supervised Machine Learning: Regression and Classification — DeepLearning.AI & Stanford University
+- CNN Course — Great Learning
+- Unsupervised Machine Learning — Great Learning
+- Large Language Models (LLMs) — Google Cloud
+- Google AI Essentials — Google
+- Google Cloud AI/LLM Programs — Google Cloud
+- Python Data Structures — University of Michigan
 
 ---
 
@@ -169,6 +164,6 @@ Languages       │ Python · Java · C# · C · TypeScript
 
 **`Building systems that think, retrieve, and scale.`**
 
-[github.com/zainabbas313](https://github.com/zainabbas313) · [kaggle.com/zainabbas110](https://www.kaggle.com/zainabbas110) · [linkedin.com/in/zainabbas313](https://www.linkedin.com/in/zainabbas313) · [IEEE Paper](https://lnkd.in/dMJYy3nt)
+[github.com/zainabbas313](https://github.com/zainabbas313) · [kaggle.com/zainabbas110](https://www.kaggle.com/zainabbas110) · [linkedin.com/in/zain-abbas-444207201](https://www.linkedin.com/in/zain-abbas-444207201/) · [IEEE Paper](https://ieeexplore.ieee.org/document/11204115)
 
 </div>
